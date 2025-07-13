@@ -18,5 +18,5 @@ def get_superheroes():
 
 @app.get("/cursosPlatzi")
 def get_cursos():
-    rows = ["Programacion", "Ingles", "JavaScript", "Python"]
+    rows = ["Programacion", "Ingles", "JavaScript", "Python", "HTML", "Git y GitHub"]
     return rows 
